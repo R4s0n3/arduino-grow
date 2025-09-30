@@ -1,0 +1,33 @@
+# Compiled object files
+*.o
+*.d
+
+# Precompiled archives
+*.a
+
+# Executables, firmware, and memory maps
+*.elf
+*.hex
+*.bin
+*.eep
+*.map
+*.lss
+
+# Build folder
+/build/
+*.build/
+
+# Local project settings
+*.local
+.ide/
+
+# Dependency directories
+/libraries/
+/components/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Secrets
+config.h

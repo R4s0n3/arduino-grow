@@ -1,0 +1,31 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+// Pin definitions
+#define DHTPIN 2
+#define GREEN_LED 5
+#define RED_LED 3
+#define BLUE_LED 6
+#define TEST_BUTTON 7
+
+// Display settings
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 64
+
+// Thresholds
+const float TEMP_MIN = 20.0;
+const float TEMP_MAX = 28.0;
+const float HUM_MIN = 40.0;
+const float HUM_MAX = 70.0;
+
+// State enum
+enum EventState {
+  NORMAL,
+  TEMP_LOW,
+  TEMP_HIGH,
+  HUM_LOW,
+  HUM_HIGH,
+  TEST_DONE
+};
+
+#endif
