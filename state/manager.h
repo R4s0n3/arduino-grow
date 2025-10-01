@@ -1,7 +1,7 @@
-#ifndef STATE_H
-#define STATE_H
+#ifndef STATE_MANAGER_H
+#define STATE_MANAGER_H
 
-#include "config.h"
+#include "../config.h"
 
 struct SensorData {
   int temperature;

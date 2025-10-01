@@ -1,8 +1,8 @@
-#ifndef DISPLAY_H
-#define DISPLAY_H
+#ifndef DISPLAY_MANAGER_H
+#define DISPLAY_MANAGER_H
 
 #include <Adafruit_SSD1306.h>
-#include "config.h"
+#include "../config.h"
 
 bool setupDisplay();
 void renderDisplay(EventState activeState, EventState overrideState, 

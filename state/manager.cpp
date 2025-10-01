@@ -1,4 +1,4 @@
-#include "state.h"
+#include "manager.h"
 
 EventState determineState(const SensorData& data) {
   if (!data.valid) return TEST_DONE;
